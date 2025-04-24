@@ -7,8 +7,10 @@
 
 import SwiftUI
 
-struct TopText: View {
-    var body: some View {
+public struct TopText: View {
+    public init() {}
+
+    public var body: some View {
         VStack {
             Text("TOP TEXT")
                 .foregroundColor(Color.secondary)

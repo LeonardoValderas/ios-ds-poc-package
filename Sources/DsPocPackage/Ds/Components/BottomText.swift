@@ -7,8 +7,9 @@
 
 import SwiftUI
 
-struct BottomText: View {
-    var body: some View {
+public struct BottomText: View {
+    public init() {}
+    public var body: some View {
         VStack {
             Spacer()
             Text("BOTTOM TEXT")
